@@ -1,2 +1,4 @@
-# COIS1400
- Data Science and programming in Python. Including repetition and selection structures, algorithm design techniques, file types, big data, data mining, and data visualization.
+
+# Winter2025 Trent University
+
+**COIS1400** Assignments and labs with Dr. Sabine McConnell.o
