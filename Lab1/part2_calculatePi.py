@@ -2,13 +2,19 @@
 # Student No:     0865803
 # Trent Email:    onuronel@trentu.ca
 # Date:           01.12.2025
+
+# Estimating Pi using the Monte Carlo Method
+# ------------------------------------------
+# As we increase the number of iterations, our estimate of pi becomes more and more accurate.
+# When I raise the iteration count to a billion, my CPU takes a couple of minutes to finish.
+# Theoretically, finding the exact value of pi would require infinite iterations that takes infinitely long run time.
 import random
 import math
 import time
 
 inside = 0 # counter
 outside = 0 # counter
-iterations = 1000000 
+iterations = 1000000000 
 
 random.seed(int(round(time.time()*1000))) # Ensuring different seed
 for i in range(iterations):
