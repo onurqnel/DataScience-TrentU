@@ -14,7 +14,7 @@ import time
 
 inside = 0 # counter
 outside = 0 # counter
-iterations = 1000000000 
+iterations = 10000000
 
 random.seed(int(round(time.time()*1000))) # Ensuring different seed
 for i in range(iterations):
