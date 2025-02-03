@@ -9,18 +9,19 @@
 # The standard matrix multiplication algorithm, based on its mathematical definition, has a time complexity of O(n^3), but faster algorithms exist.
 # For example, Strassen’s algorithm reduces the complexity to O(n^2.8), and even more advanced methods achieve further improvements.
 
-# In order to correctly multiply two matrices:
+# In order to correctly multiply two matrices, the following conditions must met:
 # - The number of columns in the first matrix must be equal to the number of rows in the second matrix.
 # - Since there is a shared property between the two matrices, we need three loop variables (i, j, k).
-# - Matrix multiplication is not commutative: (Matrix A × Matrix B != Matrix B × Matrix A).
-# - Matrix multiplication is associative: (A × B) × C = A × (B × C).
-# - Matrix multiplication is distributive: A × (B + C) = A × B + A × C.
+
+# source ~/venv/bin/activate
+# python -m idle.lib idle
 
 import random
 import time
 from memory_profiler import profile
 
 # Multiplication of two matrices using the standard algorithm
+@profile
 def multiply():
     # Iterate over each row of matrix P
     for i in range(size):
@@ -56,10 +57,13 @@ for i in range(r2):
         B[i][j]=x
 
 P=[[0 for i in range(c2)] for j in range(r1)] #initialize product matrix
-#INSERT CODE TO START TIMER 
-print(multiply()) 
+#INSERT CODE TO START TIMER
+startTime = time.time()
+print(multiply())
 #INSERT CODE TO STOP TIMER
+endTime = time.time()
 #INSERT CODE TO COMPUTE ELAPSED TIME
+elapsedTime = endTime-startTime
 #INSERT CODE TO PRINT OVERALL TIME (IN s, NUMBER OF ELEMENTS IN THE RESULT MATRIX, AND TIME PER ELEMENT (IN ms)
-
+print("Elapsed Time: ", elapsedTime)
 
