@@ -1,7 +1,7 @@
 # Student Name:   Onur Onel
 # Student No:     0865803
 # Trent Email:    onuronel@trentu.ca
-# Date:           01.22.2025
+# Date:           02.03.2025
 # Lab 4: Matrix Multiplication & Runtime Measurements
 
 # Matrix multiplication is essential for performance in graphics, scientific computing and more.
