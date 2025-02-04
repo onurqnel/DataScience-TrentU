@@ -13,8 +13,7 @@
 
 # The CPU handles matrix operations and processes them sequentially (modern ones uses multi-threading).  
 # As we increase the matrix size, the number of operations grows cubically leading to longer runtimes.
-# The execution time also depends on the number of CPU cores, Other than Algorithmic improvements,
-# we can accelerate performance by parallelizing the operation with GPUs or using optimized libraries.
+# Other than Algorithmic improvements, we can accelerate performance by parallelizing the operation with GPUs or using optimization libraries.
 
 import random
 import time
