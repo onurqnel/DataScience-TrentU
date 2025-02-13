@@ -4,6 +4,8 @@
 # Date:           02.03.2025
 # Lab 4: Matrix Multiplication & Runtime Measurements
 
+
+# Question 1:
 # Matrix multiplication is essential for performance in graphics, scientific computing and more.
 # The standard matrix multiplication algorithm, based on classic mathematical definition,
 # has a time complexity of O(n^3), but faster algorithms exist (i.e. Strassen’s Algorithm).
@@ -11,6 +13,7 @@
 # This happens because there are 3 loops, each going through n elements,  
 # making the total number of operations (n x n x n) n^3.
 
+# Question 2:
 # The CPU handles matrix operations and processes them sequentially (modern ones uses multi-threading).  
 # As we increase the matrix size, the number of operations grows cubically leading to longer runtimes.
 # Other than Algorithmic improvements, we can accelerate performance by parallelizing the operation with GPUs or using optimization libraries.
