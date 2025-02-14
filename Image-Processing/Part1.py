@@ -17,7 +17,6 @@ width=myImage.shape[1]  # Number of columns
 for x in range(0, height-1):
    for y in range(0,width-1):
         rgbAverage = numpy.mean(myImage[x, y][:3]) # Compute the average of RGB
-        rgbAverage = 1-rgbAverage  # Inverse the grayscale value
         myImage[x, y] = [rgbAverage,rgbAverage,rgbAverage,1] # Assign as inversed grayscale 
 
 # Since human eyes not perceive RGB colors equally, luminance formula gives a more accurate grayscale image.
