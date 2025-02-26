@@ -11,9 +11,11 @@ from pydataset import data
 
 iris = data('iris')  
 firstTwo = tuple(iris.columns[:2])
+title = 'Onur Onel 0865803 | 26.03.2025'
+
 
 plt.scatter(iris[firstTwo[0]], iris[firstTwo[1]])
-plt.title('Scatter Plot')
+plt.title(title) 
 plt.xlabel(firstTwo[0])  
 plt.ylabel(firstTwo[1])  
 plt.show()  
@@ -21,20 +23,19 @@ plt.show()
 # Part 2
 labels = 'virginica', 'setosa', 'versicolor'
 sizes = [50, 50, 50]
-plt.title('Pie Chart')
+plt.title(title) 
 plt.pie(sizes, labels=labels)
 plt.show()  
 
 # Part 3
 plt.hist(iris[firstTwo[0]])
-plt.title('Histogram')
+plt.title(title) 
 plt.xlabel(firstTwo[0])
 plt.ylabel('Count')     
 plt.show()  
 
 # Part 4
 fig, axes = plt.subplots(2, 2)
-title = 'Onur Onel 0865803'
 
 # Pie Chart 
 labels = ['virginica', 'setosa', 'versicolor']
