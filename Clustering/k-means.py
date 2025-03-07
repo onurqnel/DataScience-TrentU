@@ -6,11 +6,11 @@
 
 # This program demonstrates the use of K-Means clustering on the Iris dataset using scikit-learn.
 # K-Means is an unsupervised machine learning algorithm that partitions data into k clusters.
-# The Iris dataset consists of 150 samples, each with four numerical features: 
-#   - Sepal Length
-#   - Sepal Width
-#   - Petal Length
-#   - Petal Width
+# The Iris dataset consists of 150 samples, each with 4 numerical features: 
+# - Sepal Length
+# - Sepal Width
+# - Petal Length
+# - Petal Width
 # We apply K-Means clustering to find groupings in the data.
 # The Elbow Method is used to determine the optimal number of clusters.
 
