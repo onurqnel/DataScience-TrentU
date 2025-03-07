@@ -1,7 +1,7 @@
 # Student Name:   Onur Onel
 # Student No:     0865803
 # Trent Email:    onuronel@trentu.ca
-# Date:           07.04.2025
+# Date:           07.03.2025
 # Lab 8:          Clustering
 
 # This program demonstrates the use of K-Means clustering on the Iris dataset using scikit-learn.
