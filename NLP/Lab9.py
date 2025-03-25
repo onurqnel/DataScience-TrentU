@@ -4,7 +4,7 @@
 # Date:           18.03.2025
 # Lab 9:          Natural Language Processing
 
-# Natural Language Processing (NLP) lets computers understand and work with human language.
+# Natural Language Processing lets computers understand and work with human language.
 # The NLTK library makes many NLP tasks easier in Python. For example,
 # NLTK provides access to large collections of texts, like the Gutenberg corpus,
 # which includes classic literature such as Shakespeare's Macbeth.
